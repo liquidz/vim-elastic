@@ -23,7 +23,6 @@ Introduction					*vim-elastic-introduction*
 
 Elastic plugin for vim.
 
-
 ==============================================================================
 Interface					*vim-elastic-interface*
 
@@ -35,9 +34,8 @@ Commands					*vim-elastic-commands*
 ------------------------------------------------------------------------------
 Functions					*vim-elastic-functions*
 
-elastic#post(index, type, data)				*elastic#post*
+elastic#post(index, type, data)			*elastic#post*
 	Post data to elastic.
-	
 
 elastic#delete(...)				*elastic#delete*
 	Delete from elastic.
@@ -45,7 +43,7 @@ elastic#delete(...)				*elastic#delete*
 	Example: >
 	  echo elastic#delete('index')
 	  echo elastic#delete('index', 'type')
-	<
+<
 
 elastic#get(...)				*elastic#get*
 	Get data from elastic.
@@ -53,7 +51,7 @@ elastic#get(...)				*elastic#get*
 	Example: >
 	  echo elastic#get('index')
 	  echo elastic#get('index', 'type')
-	<
+<
 
 
 
@@ -65,10 +63,9 @@ Key Mappings					*vim-elastic-key-mappings*
 ==============================================================================
 Customizing					*vim-elastic-customizing*
 
-g:elastic#url				*g:elastic#url*
+g:elastic#url					*g:elastic#url*
 	Elastic url.
 	Default value is 'http://localhost:9200'.
-	
 
 
 
